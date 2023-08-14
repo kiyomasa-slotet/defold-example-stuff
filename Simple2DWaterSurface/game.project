@@ -1,0 +1,16 @@
+[bootstrap]
+main_collection = /main/water_surface.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1920
+height = 1080
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = Simple2DWaterSurface
+

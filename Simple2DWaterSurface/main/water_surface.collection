@@ -1,0 +1,154 @@
+name: "water_surface"
+scale_along_z: 0
+embedded_instances {
+  id: "base"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/water_surface.atlas\\\"\\n"
+  "default_animation: \\\"BASE_COL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 960.0
+    y: 540.0
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "ground"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/water_surface.atlas\\\"\\n"
+  "default_animation: \\\"ground\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 960.0
+    y: 791.0
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.25
+    y: 1.25
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "water"
+  data: "components {\n"
+  "  id: \"water_surface\"\n"
+  "  component: \"/main/water_surface.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"speed\"\n"
+  "    value: \"0.07, 0.0, 0.0, 0.0\"\n"
+  "    type: PROPERTY_TYPE_VECTOR4\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"scale\"\n"
+  "    value: \"0.34, 0.0, 0.0, 0.0\"\n"
+  "    type: PROPERTY_TYPE_VECTOR4\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/builtins/assets/meshes/quad.dae\\\"\\n"
+  "material: \\\"/main/water_surface.material\\\"\\n"
+  "textures: \\\"/assets/gravel_embedded_concrete.jpg\\\"\\n"
+  "textures: \\\"/assets/water.png\\\"\\n"
+  "textures: \\\"/assets/gravel_embedded_concrete.jpg\\\"\\n"
+  "skeleton: \\\"\\\"\\n"
+  "animations: \\\"\\\"\\n"
+  "default_animation: \\\"\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.002\n"
+  "    y: 0.011\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 996.0
+    y: 417.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2565.0
+    y: 1068.75
+    z: 1.0
+  }
+}
