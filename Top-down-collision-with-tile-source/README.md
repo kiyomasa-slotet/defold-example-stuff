@@ -3,6 +3,6 @@
 ## Example on HTML
 []()
 
-** Controll **
-`WASD or cursor`: movement
+*Controll*  
+`WASD or cursor`: movement  
 `T`: toggle physics debug
