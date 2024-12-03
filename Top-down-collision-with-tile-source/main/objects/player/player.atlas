@@ -1,0 +1,194 @@
+images {
+  image: "/Main/assets/graphics/player/player_shadow.png"
+}
+animations {
+  id: "player_standing"
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00001.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00002.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00003.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00004.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00005.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00006.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00007.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00008.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00009.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00010.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00011.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00012.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00013.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00014.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00015.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00016.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00017.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00018.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00019.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00020.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00021.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00022.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00023.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00024.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00025.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00026.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00027.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00028.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00029.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00030.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00031.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00032.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00033.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00034.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00035.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_standing/robot_standing_00036.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 24
+}
+animations {
+  id: "player_walking"
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00001.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00002.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00003.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00004.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00005.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00006.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00007.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00008.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00009.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00010.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00011.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00012.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00013.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00014.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00015.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00016.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00017.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00018.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00019.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00020.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00021.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00022.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00023.png"
+  }
+  images {
+    image: "/Main/assets/graphics/player/player_walking/robot_walking_00024.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 24
+}
+extrude_borders: 2

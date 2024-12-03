@@ -1,13 +1,16 @@
 images {
-  image: "/assets/player.png"
-  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  image: "/Main/assets/ground.png"
 }
 images {
-  image: "/assets/background.jpg"
-  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  image: "/Main/assets/p1.png"
 }
-margin: 0
+images {
+  image: "/Main/assets/p2.png"
+}
+images {
+  image: "/Main/assets/synth.png"
+}
+images {
+  image: "/Main/collision/area_small.png"
+}
 extrude_borders: 2
-inner_padding: 0
-max_page_width: 0
-max_page_height: 0

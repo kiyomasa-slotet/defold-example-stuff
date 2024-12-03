@@ -1,0 +1,25 @@
+local machine = require "Main.util.statemachine"
+
+local fsm = machine.create({
+	initial = 'idle',
+	events = {
+		{ name = 'to_walk',  from = {'idle', 'run'},  to = 'walk'},
+		{ name = 'to_run',  from = {'idle', 'walk'},  to = 'run'},
+		{ name = 'to_idle', from = {'walk', 'run'}, to = 'idle'}
+	},
+	callbacks = {
+		on_walk = function(self, event, from, to, msg)
+			print('panic! ' .. from)
+		end
+	}
+})
+
+function init(self)
+	fsm:to_idle()
+end
+
+function on_message(self, message_id, message, sender)
+	-- Add message-handling code here
+	-- Learn more: https://defold.com/manuals/message-passing/
+	-- Remove this function if not needed
+end

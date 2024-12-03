@@ -1,0 +1,4 @@
+images {
+  image: "/Main/assets/guide.png"
+}
+extrude_borders: 2

@@ -1,0 +1,42 @@
+--local global_param = require "Main.PRISM_CORE.global.param"
+local player_input = require "Main.objects.player.module.player_input"
+local player_update = require "Main.objects.player.module.player_update"
+local player_on_message = require "Main.objects.player.module.player_on_message"
+
+local debug_player = require "Main.objects.player.player_debug"
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	self.input = vmath.vector3()
+	self.input_dash = false
+	self.dir = vmath.vector3()
+	self.pos = go.get_position()
+	self.correction = vmath.vector3()
+	self.state = nil
+
+	msg.post("@render:", "clear_color", { color = vmath.vector4(0.15, 0.15, 0.15, 0) })
+	
+end
+
+function update(self, dt)
+	debug_player.update(self, dt)
+	player_update.update(self, dt)
+	
+end
+
+function on_message(self, message_id, message, sender)
+	player_on_message.on_message(self, message_id, message, sender)
+end
+
+function on_input(self, action_id, action)
+	player_input.on_input(self, action_id, action)
+
+	if action_id == hash('key_T') and action.pressed then
+		msg.post("@system:", "toggle_physics_debug")
+	end
+end
+
+function on_reload(self)
+	--msg.post("@system:", "toggle_physics_debug")
+	
+end

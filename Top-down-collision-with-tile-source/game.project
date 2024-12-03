@@ -3,7 +3,7 @@ title = Top-down-collision-with-tile-source
 dependencies#0 = https://github.com/rgrams/rendercam/archive/1.0.3.zip
 
 [bootstrap]
-main_collection = /main/main.collectionc
+main_collection = /Main/main.collectionc
 render = /rendercam/rendercam.renderc
 
 [input]
